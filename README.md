@@ -74,8 +74,9 @@ The SCC C library's `Time_Set()` function has bugs. We bypass it and call the Sy
   - Get it from: https://github.com/danielgaskell/scc
   - Default path expected: `~/Dev/LEISURE/scc`
   - Update `CC` path in `build-direct.sh` if installed elsewhere
-- Target: SymbOS 4.1 on Amstrad CPC
-- Network: Net4CPC with W5100S chip
+
+- Target: SymbOS 4.x on Amstrad CPC
+- Network: Net4CPC with W5100S chip or Duke's M4 or any other network device
 
 ## Usage
 
@@ -155,7 +156,7 @@ See `settime.cfg.example` for a complete example.
 - Network daemon by Prodatron (SymbiosiS)
 - Net4CPC drivers by d_kef
 - SymbOS by Prodatron
-- Time client implementation by Claude (Anthropic) with sbognann
+- Time client implementation by Claude (Anthropic) with salvogendut
 
 ## References
 
