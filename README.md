@@ -111,6 +111,11 @@ date
 
 Should show the correct date and time.
 
+### Running at Startup
+
+This application can be added to the SymbOS Autostart menu to automatically synchronize the system clock on boot. Simply add `settime.com` to your autostart configuration, and the time will be set automatically each time SymbOS starts.
+
+
 ## Configuration File
 
 Create a file named `settime.cfg` in the same directory as `settime.com` to customize settings:
@@ -156,7 +161,7 @@ See `settime.cfg.example` for a complete example.
 - Network daemon by Prodatron (SymbiosiS)
 - Net4CPC drivers by d_kef
 - SymbOS by Prodatron
-- Time client implementation by Claude (Anthropic) with salvogendut
+- Time client implementation vibe-coded by salvogendut
 
 ## References
 
