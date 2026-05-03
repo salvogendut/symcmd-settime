@@ -1,0 +1,12 @@
+# settime.com configuration file
+# Copy this to settime.cfg and edit as needed
+
+# Time server URL (optional)
+# If not specified, uses time.akamai.com
+# Can be specified with or without http:// prefix
+server=time.akamai.com
+
+# Timezone offset from UTC (optional)
+# Examples: +1 (CET), +2 (CEST), -5 (EST), -8 (PST)
+# If not specified, uses UTC (0)
+timezone=0
