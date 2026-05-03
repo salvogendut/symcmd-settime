@@ -1,6 +1,6 @@
 # settime
 
-HTTP-based time synchronization client for SymbOS on Amstrad CPC.
+HTTP-based time synchronization client for SymbOS on Amstrad CPC and possibly other platforms
 
 ## Quick Start
 
@@ -77,6 +77,10 @@ The SCC C library's `Time_Set()` function has bugs. We bypass it and call the Sy
 
 - Target: SymbOS 4.x on Amstrad CPC
 - Network: Net4CPC with W5100S chip or Duke's M4 or any other network device
+
+## Testing
+
+This application has been tested so far only on an **Amstrad CPC 464** using **PicoROM CPC** and a **Net4CPC** device.
 
 ## Usage
 
