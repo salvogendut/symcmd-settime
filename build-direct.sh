@@ -2,7 +2,8 @@
 #
 # Build HTTP Time Client (Direct syscall) for SymbOS
 #
-
+# Requires: SymbOS C Compiler (SCC) - https://github.com/danielgaskell/scc
+# SCC path configured below:
 CC=~/Dev/LEISURE/scc/bin/cc
 SRC_DIR=./src
 OUTPUT_DIR=./build

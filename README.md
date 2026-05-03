@@ -1,6 +1,6 @@
-# Net4CPC Time Client for SymbOS
+# settime
 
-HTTP-based time synchronization client for SymbOS on Amstrad CPC with Net4CPC (W5100S).
+HTTP-based time synchronization client for SymbOS on Amstrad CPC.
 
 ## Quick Start
 
@@ -70,7 +70,10 @@ The SCC C library's `Time_Set()` function has bugs. We bypass it and call the Sy
 
 ## Build Requirements
 
-- SymbOS C Compiler (SCC) at `~/Dev/LEISURE/scc`
+- **SymbOS C Compiler (SCC)** - Required to build this project
+  - Get it from: https://github.com/danielgaskell/scc
+  - Default path expected: `~/Dev/LEISURE/scc`
+  - Update `CC` path in `build-direct.sh` if installed elsewhere
 - Target: SymbOS 4.1 on Amstrad CPC
 - Network: Net4CPC with W5100S chip
 
